@@ -15,6 +15,7 @@
     in {
         packages.slang-lsp-tools = pkgs.stdenvNoCC.mkDerivation {
             name = "slang-lsp-tools";
+            pname = "slang-lsp-tools";
             dontBuild = true;
             dontConfigure = true;
 
